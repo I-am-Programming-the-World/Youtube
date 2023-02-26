@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.0.5/swiper-bundle.css" integrity="sha512-CTWIgc35lLPcCl1OP7MNcrrES+jyBBvMEz8Cqx/v0hifPNjIpPsd/jUYTJ/41CYCrQdfuw7LopKaqqjXVLqejg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="CSS/style.css" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.0.5/swiper-bundle.min.js" integrity="sha512-cEcJcdNCHLm3YSMAwsI/NeHFqfgNQvO0C27zkPuYZbYjhKlS9+kqO5hZ9YltQ4GaTDpePDQ2SrEk8gHUVaqxig==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Inspo Network Website</title>
+</head>
+<body>
+        <!-- Semantically Coded Navigation bar -->
+        <nav>
+            <img src="images/Navigation-Icon.gif" alt="inspo Network Website Logo">
+            <div class="nav_toggle" id="mobile-view">
+            <!-- lets build our hamburger menu -->
+            <div class="hamburger">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6" width="20px">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+            </div>
+        </div>
+        <ul class="unordered-list">
+            <li>Creators</li>
+            <li>Brands</li>
+            <li>Who We Are</li>
+            <li>Insights</li>
+        </ul>
+        <button id="navbar-leftbtn">Creator Login</button>
+        <button id="navbar-rightbtn">Get Started</button>
+    </nav>
+    <!-- Our navbar is done. Now we have to design the main website section and a footer. Div tags can be used instead of the 
+    following, hpwever these are semantic html formats and are most efficient and search engine friendly! -->
+    <section>
+        <center>
+            <strong>Introducing Insp</strong>
+            <article>
+                <p>By connecting top Creators to Brands and Agencies to quality video experiences,<br>
+                    Inspo delivers maximum engagement through authentic, people-powered media </p>
+            </article>
+            <!-- before we design the carousel we have to call two important external sources one for our JS and another for css these  can be found
+            by searching for the phrase "swiperjs cdn"; All you have to do is copy the links and scripts provided in the link for this video-->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- You can find the links for any video you like and place them in as a value for one of these src attributes
+                    there are alot of other things we can do like add animations and even a mouse hover and movement events the videos have all been placed 
+                on autoplay to provide for a smoother and much more eloquent UI-->
+                    <video class="swiper-slide" src="https://mazwai.com/videvo_files/video/free/2018-01/small_watermarked/171124_H1_006_preview.webm" poster="https://whythisplace.com/wp-content/uploads/2022/07/hawaii-zoom-beach-background-1024x681.webp" autoplay loop></video>
+                    <video class="swiper-slide" src="https://mazwai.com/videvo_files/video/free/2018-01/small_watermarked/171124_F1_001_preview.webm" poster="https://www.bhmpics.com/download/lovely_green_grass_field-1024x576.jpg" autoplay loop></video>
+                    <video class="swiper-slide" src="https://mazwai.com/videvo_files/video/free/2018-12/small_watermarked/180607_A_124_preview.webm" poster="https://www.wallpapers13.com/wp-content/uploads/2020/02/Plitvice-Lakes-National-Park-in-Croatia-Waterfall-stones-green-moss-vegetation-Wallpaper-HD-1366x768.jpg" autoplay loop></video>
+                    <video class="swiper-slide" src="https://mazwai.com/videvo_files/video/free/2019-03/small_watermarked/190111_08_BuildingsTraffic_Drone_09_preview.webm" poster="https://gamerwall.pro/uploads/posts/2022-03/1648141566_2-gamerwall-pro-p-sinii-fon-gorod-krasivie-2.jpg" autoplay loop></video>
+                    <video class="swiper-slide" src="https://mazwai.com/videvo_files/video/free/2017-08/small_watermarked/170724_15_Setangibeach_preview.webm" poster="https://www.bhmpics.com/download/tropical_beach_palms-1024x576.jpg" autoplay loop></video>
+                </div>
+            </div>
+        </center>
+        <!-- Footer to showcase our logos -->
+    </section>
+    <footer>
+        <img src="images/feelgoodfoodie.png" alt="feelgoodfoodie" id="img1">
+        <img src="images/FoodieCrush-Series.png" alt="FoodieCrush" id="img2">
+        <img src="images/weelicious.png" alt="weelicious" id="img3">
+        <img src="images/Well-Plated-Logo.jpg" alt="Well-Plated-Logo" id="img4">
+        <img src="images/simply-quinoa.png" alt="simply-quinoa" id="img5">
+        <img src="images/paleomg-logo.png" alt="paleomg-logo" id="img6">
+    </footer>
+    <script src="JS/script.js"></script>
+</body>
